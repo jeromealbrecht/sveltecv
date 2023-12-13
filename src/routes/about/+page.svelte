@@ -28,11 +28,6 @@
 		<img src="https://image.noelshack.com/fichiers/2023/50/3/1702426140-site-couleurdeson.jpg" alt="Description de l'image" />
 </div>
 
-	<p>
-		The page you're looking at is purely static HTML, with no client-side interactivity needed.
-		Because of that, we don't need to load any JavaScript. Try viewing the page's source, or opening
-		the devtools network panel and reloading.
-	</p>
 </div>
 
 <style>
