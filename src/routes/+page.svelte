@@ -3,13 +3,13 @@
 	import { onMount } from 'svelte';
 
 	let originalTitle = "Développeur Autonome";
-  let blurredTitle = "Oh déjà parti ?";
-  let isBlurred = false;
+	let blurredTitle = "Oh déjà parti ?";
+	let isBlurred = false;
 
-  // Fonction pour mettre à jour le titre de l'onglet
-  function updatePageTitle() {
-    document.title = isBlurred ? blurredTitle : originalTitle;
-  }
+	// Fonction pour mettre à jour le titre de l'onglet
+	function updatePageTitle() {
+		document.title = isBlurred ? blurredTitle : originalTitle;
+	}
 
   // Détecter la perte de focus de la page
   onMount(() => {
